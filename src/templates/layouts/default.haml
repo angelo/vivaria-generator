@@ -13,6 +13,8 @@
 
     / build:js javascripts/vendor/modernizr.js
     %script{:src => "components/modernizr/modernizr.js"}
+    %script{:src => "components/jquery/dist/jquery.min.js"}    
+    %script{:src => "javascripts/site.js"}
     / endbuild
 
   %body{:class => "{{ basename }}"}
